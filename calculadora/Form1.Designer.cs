@@ -49,7 +49,7 @@
             // 
             SegundoNumero.Location = new Point(297, 54);
             SegundoNumero.Name = "SegundoNumero";
-            SegundoNumero.Size = new Size(150, 31);
+            SegundoNumero.Size = new Size(164, 31);
             SegundoNumero.TabIndex = 1;
             // 
             // PrimeiroNumero
@@ -72,11 +72,12 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(298, 54);
+            label2.Location = new Point(312, 57);
             label2.Name = "label2";
             label2.Size = new Size(149, 25);
             label2.TabIndex = 4;
             label2.Text = "segundo numero";
+            label2.Click += label2_Click;
             // 
             // resultado
             // 

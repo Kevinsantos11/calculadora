@@ -26,5 +26,14 @@ namespace calculadora
         {
 
         }
+
+        private void somar_Click(object sender, EventArgs e)
+        {
+            int primNum, segNum, resultado;
+            primNum = Int32.Parse(PrimeiroNumero.Text);
+            segNum = Int32.Parse(SegundoNumero.Text);
+            resultado = primNum + segNum;
+            resultadoText.Text = resultado.ToString();
+        }
     }
 }
